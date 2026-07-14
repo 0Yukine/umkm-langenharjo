@@ -367,19 +367,19 @@ export default function SeblakSemar() {
           <div className="grid md:grid-cols-3 gap-6">
 
             <img
-              src="/images/seblak-semar/galeri1.jpeg"
+              src="/images/seblak-semar/galeri1.jpg"
               alt="Seblak"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
 
             <img
-              src="/images/seblak-semar/galeri2.jpeg"
+              src="/images/seblak-semar/galeri2.jpg"
               alt="Seblak"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
 
             <img
-              src="/images/seblak-semar/galeri3.jpeg"
+              src="/images/seblak-semar/galeri3.jpg"
               alt="Seblak"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
