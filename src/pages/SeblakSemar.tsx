@@ -1,4 +1,5 @@
 import MainLayout from "../layouts/MainLayout";
+import heroImg from "../assets/seblak-semar/hero.jpg";
 
 export default function SeblakSemar() {
   const toppings = [
@@ -23,7 +24,7 @@ export default function SeblakSemar() {
     <MainLayout>
 
       {/* HERO */}
-      <section className="bg-gradient-to-r from-[#FFF8EE] to-[#F5E6D3] py-24">
+      <section className="bg-linear-to-r from-[#FFF8EE] to-[#F5E6D3] py-24">
 
         <div className="max-w-7xl mx-auto px-6">
 
@@ -61,9 +62,9 @@ export default function SeblakSemar() {
             <div>
 
               <img
-                src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f"
+                src={heroImg}
                 alt="Seblak"
-                className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+                className="rounded-3xl shadow-2xl w-full h-125 object-cover"
               />
 
             </div>
@@ -110,7 +111,7 @@ export default function SeblakSemar() {
             </div>
 
             <h3 className="text-3xl font-bold text-[#8B4513]">
-              Pak Umar Kholil
+              Ibu Etik
             </h3>
 
             <p className="text-gray-600 mt-4">
@@ -366,19 +367,19 @@ export default function SeblakSemar() {
           <div className="grid md:grid-cols-3 gap-6">
 
             <img
-              src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f"
+              src="/images/seblak-semar/galeri1.jpeg"
               alt="Seblak"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+              src="/images/seblak-semar/galeri2.jpeg"
               alt="Seblak"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+              src="/images/seblak-semar/galeri3.jpeg"
               alt="Seblak"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />

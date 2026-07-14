@@ -1,4 +1,12 @@
 import MainLayout from "../layouts/MainLayout";
+import heroImg from "../assets/won-dimsum/hero.jpg";
+import oriImg from "../assets/won-dimsum/ori.png";
+import mentaiImg from "../assets/won-dimsum/mentai.png";
+import tartarImg from "../assets/won-dimsum/tartar.png";
+import lavaImg from "../assets/won-dimsum/lava.png";
+import mixImg from "../assets/won-dimsum/mix.png";
+import loveImg from "../assets/won-dimsum/love.png";
+import lingkaranImg from "../assets/won-dimsum/lingkaran.png";
 
 export default function Wongkoesan() {
   const menuDimsum = [
@@ -6,50 +14,58 @@ export default function Wongkoesan() {
       nama: "Dimsum Original",
       harga: "Rp15.000",
       foto:
-        "https://images.unsplash.com/photo-1563245372-f21724e3856d",
+        oriImg,
     },
 
     {
       nama: "Dimsum Mentai",
       harga: "Rp25.000",
       foto:
-        "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+        mentaiImg,
     },
 
     {
       nama: "Dimsum Tartar",
       harga: "Rp25.000",
       foto:
-        "https://images.unsplash.com/photo-1553621042-f6e147245754",
+        tartarImg,
     },
 
     {
       nama: "Dimsum Lava",
       harga: "Rp25.000",
       foto:
-        "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+        lavaImg,
     },
 
     {
       nama: "Mix Sauce Custom",
       harga: "Rp25.000",
       foto:
-        "https://images.unsplash.com/photo-1544025162-d76694265947",
+        mixImg,
     },
 
     {
-      nama: "Party Size",
+      nama: "Party Size Lingkaran",
       harga: "Rp100.000",
       foto:
-        "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
+        lingkaranImg,
     },
+
+    {
+      nama: "Party Size Love",
+      harga: "Rp60.000",
+      foto:
+        loveImg,
+    }
+
   ];
 
   return (
     <MainLayout>
 
 {/* HERO */}
-<section className="bg-gradient-to-r from-[#FFF8EE] to-[#F5E6D3] py-24">
+<section className="bg-linear-to-r from-[#FFF8EE] to-[#F5E6D3] py-24">
 
   <div className="max-w-7xl mx-auto px-6">
 
@@ -89,9 +105,9 @@ export default function Wongkoesan() {
       <div>
 
         <img
-          src="https://images.unsplash.com/photo-1563245372-f21724e3856d"
+          src={heroImg}
           alt="Won Dimsum"
-          className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
+          className="rounded-3xl shadow-2xl w-full h-125 object-cover"
         />
 
       </div>
@@ -378,19 +394,19 @@ export default function Wongkoesan() {
           <div className="grid md:grid-cols-3 gap-6">
 
             <img
-              src="https://images.unsplash.com/photo-1553621042-f6e147245754"
+              src="/images/won-dimsum/galeri1.jpg"
               alt="dimsum"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1563245372-f21724e3856d"
+              src="/images/won-dimsum/galeri2.jpg"
               alt="dimsum"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1512058564366-18510be2db19"
+              src="/images/won-dimsum/galeri3.jpg"
               alt="dimsum"
               className="rounded-3xl h-72 w-full object-cover shadow-lg"
             />

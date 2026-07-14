@@ -1,10 +1,13 @@
+import dimsumImg from "../assets/images/dimsum-card.jpg";
+import seblakImg from "../assets/images/seblak-card.jpg";
+import syifaImg from "../assets/images/syifa-card.jpeg";
 export const umkmData = [
   {
     id: 1,
     name: "Won Dimsum by Wongkoesan",
     slug: "won-dimsum",
     image:
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d",
+      dimsumImg,
     description:
       "Aneka dimsum homemade dengan berbagai varian rasa.",
     owner: "Won Dimsum",
@@ -17,7 +20,7 @@ export const umkmData = [
     name: "Seblak Semar Kendal",
     slug: "seblak-semar",
     image:
-      "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+      seblakImg,
     description:
       "Kuliner pedas khas dengan berbagai topping pilihan.",
     owner: "Seblak Semar",
@@ -30,7 +33,7 @@ export const umkmData = [
     name: "Syifa Eco",
     slug: "syifa-eco",
     image:
-      "https://images.unsplash.com/photo-1555244162-803834f70033",
+      syifaImg,
     description:
       "Layanan catering dan snack box untuk berbagai acara.",
     owner: "Syifa Eco",

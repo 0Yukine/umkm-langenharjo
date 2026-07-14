@@ -1,34 +1,43 @@
 import MainLayout from "../layouts/MainLayout";
+import heroImg from "../assets/syifa-eco/hero.jpeg";
+import nasiboxImg from "../assets/syifa-eco/nasibox.jpeg";
+import sekaliImg from "../assets/syifa-eco/sekali.jpg";
+import biasaImg from "../assets/syifa-eco/biasa.jpeg";
+import spesialImg from "../assets/syifa-eco/spesial.jpeg";
+import customImg from "../assets/syifa-eco/custom.jpeg";
 
 export default function SyifaEco() {
   const layanan = [
     {
-      nama: "Snack Box",
-      harga: "Mulai Rp10.000",
-      foto:
-        "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
-    },
-
-    {
       nama: "Nasi Box",
-      harga: "Mulai Rp20.000",
-      foto:
-        "https://images.unsplash.com/photo-1544025162-d76694265947",
+      harga: "Rp15.000 - Rp50.000",
+      foto: nasiboxImg,
     },
 
     {
-      nama: "Prasmanan",
+      nama: "Paket Sekali Makan",
+      harga: "Rp15.000 - Rp30.000",
+      foto: sekaliImg,
+    },
+
+    {
+      nama: "Gudeg Biasa",
+      harga: "Rp10.000",
+      foto: biasaImg,
+    },
+
+    {
+      nama: "Gudeg Spesial",
+      harga: "Rp30.000",
+      foto: spesialImg,
+    },
+
+    {
+      nama: "Custom Menu",
       harga: "Sesuai Pesanan",
-      foto:
-        "https://images.unsplash.com/photo-1555244162-803834f70033",
+      foto: customImg,
     },
 
-    {
-      nama: "Tumpeng",
-      harga: "Sesuai Ukuran",
-      foto:
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
-    },
   ];
 
   return (
@@ -73,7 +82,7 @@ export default function SyifaEco() {
             <div>
 
               <img
-                src="https://images.unsplash.com/photo-1555244162-803834f70033"
+                src={heroImg}
                 alt="Syifa Eco"
                 className="rounded-3xl shadow-2xl w-full h-[500px] object-cover"
               />
@@ -123,7 +132,7 @@ export default function SyifaEco() {
             </div>
 
             <h3 className="text-3xl font-bold text-[#8B4513]">
-              Pak Khanan
+              Ibu Khanan
             </h3>
 
             <p className="text-gray-600 mt-4">
@@ -196,7 +205,7 @@ export default function SyifaEco() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
 
             <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4"
+              src={spesialImg}
               alt="Gudeg Jogja"
               className="rounded-3xl shadow-xl h-[450px] w-full object-cover"
             />
@@ -413,19 +422,37 @@ export default function SyifaEco() {
           <div className="grid md:grid-cols-3 gap-6">
 
             <img
-              src="https://images.unsplash.com/photo-1555244162-803834f70033"
+              src="/images/syifa-eco/galeri1.jpeg"
               alt="Catering"
               className="rounded-3xl h-72 w-full object-cover"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1544025162-d76694265947"
+              src="/images/syifa-eco/galeri2.jpeg"
               alt="Catering"
               className="rounded-3xl h-72 w-full object-cover"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1467003909585-2f8a72700288"
+              src="/images/syifa-eco/galeri3.jpeg"
+              alt="Catering"
+              className="rounded-3xl h-72 w-full object-cover"
+            />
+
+            <img
+              src="/images/syifa-eco/galeri4.jpeg"
+              alt="Catering"
+              className="rounded-3xl h-72 w-full object-cover"
+            />
+
+            <img
+              src="/images/syifa-eco/galeri5.jpeg"
+              alt="Catering"
+              className="rounded-3xl h-72 w-full object-cover"
+            />
+
+            <img
+              src="/images/syifa-eco/galeri6.jpeg"
               alt="Catering"
               className="rounded-3xl h-72 w-full object-cover"
             />

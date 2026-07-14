@@ -49,7 +49,7 @@ export default function Hero() {
           <div>
 
             <img
-              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+              src="/images/hero-umkm.png"
               alt="UMKM Langenharjo"
               className="rounded-3xl shadow-2xl w-full h-96 object-cover"
             />
